@@ -17,6 +17,7 @@ namespace Shapes
                 {
                     throw new ArgumentException("el radio debe ser mayor o igual que 0");
                 }
+                
             }
         }
         public double Area
@@ -24,6 +25,7 @@ namespace Shapes
             get
             {
                 return Math.PI * (Radius * Radius);
+                
             }
         }
     }
