@@ -2,10 +2,23 @@
 
 namespace Shapes
 {
-    public class Circle
+    public class Circle : IArea
     {
-        
-        public double Radius { get; set; }
+
+        public double Radius
+        {
+            get
+            {
+                return Radius;
+            }
+            set
+            {
+                if (Radius < 0)
+                {
+                    throw new ArgumentException("el radio debe ser mayor o igual que 0");
+                }
+            }
+        }
         public double Area
         {
             get
