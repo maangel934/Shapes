@@ -6,10 +6,5 @@
     public interface IArea
     {
         double Area { get; }
-
-        public string toString()
-        {
-            return "El área es: " + Area;
-        }
     }
 }

@@ -9,6 +9,7 @@ namespace Shapes
     public class Circle : IArea
     {
 
+
         public double Radius
         {
             get
@@ -31,6 +32,10 @@ namespace Shapes
                 return Math.PI * (Radius * Radius);
                 
             }
+        }
+        public override string ToString()
+        {
+            return "Circulo de radio = " + Radius + ", área = " + Area;
         }
     }
 }
