@@ -48,5 +48,10 @@ namespace Shapes
                 }
             }
         }
+        public double area(double Height, double Width)
+        {
+            return Height * Width;
+            
+        }
     }
 }

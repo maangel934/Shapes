@@ -6,9 +6,9 @@ namespace PruebasRectangle
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        [DataRow]
+        public void areaRectangle(double width, double height)
         {
-
-        }
+            Assert.AreEqual(Shapes.rectangle(height, width));
     }
 }
