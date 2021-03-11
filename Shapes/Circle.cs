@@ -33,6 +33,10 @@ namespace Shapes
                 
             }
         }
+        /// <summary>
+        /// Modificación de la funcion ToString para que devuelva "x" valores
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return "Circulo de radio = " + Radius + ", área = " + Area;
