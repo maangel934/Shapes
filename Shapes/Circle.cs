@@ -2,6 +2,10 @@
 
 namespace Shapes
 {
+    /// <summary>
+    /// Clase que obtendrá el valor del radio de un círculo
+    /// y nos devolverá su área
+    /// </summary>
     public class Circle : IArea
     {
 
